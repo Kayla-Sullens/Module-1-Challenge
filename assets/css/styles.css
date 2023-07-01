@@ -1,3 +1,4 @@
+/* Universal Selectors */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Class Selectors */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,11 +36,13 @@ body {
 
 .header div ul {
     list-style-type: none;
+    text-align: right;
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    text-align: right;
 }
 
 a {
@@ -120,9 +124,9 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputations-management img,
-.social-media-marketing img {
+#search-engine-optimization img,
+#online-reputations-management img,
+#social-media-marketing img {
     max-height: 200px;
 }
 
