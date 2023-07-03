@@ -1,15 +1,15 @@
-/* Universal Selectors */
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/* Element Selectors */
+/* Element Selector will give the body of the webpage a default background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Class Selectors */
+/* Class Selector here will give all headers this default layout/color/style */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +17,18 @@ body {
     color: #ffffff;
 }
 
+/* All h1 headers will be displayed this way with this font size, unless something more specific is applied elsewhere */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This class selector is going to change the default text color of just these 3 letters in the header to something else */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This formats everything in the navigation bar */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,22 +42,25 @@ body {
     text-align: right;
 }
 
+/* Class selector will make the 3 list items in the navigation bar be displayed in a horizontal line on the right side of the page */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
     text-align: right;
 }
 
+/* Element selector here is going to style the 3 anchor links in the navigation bar the same */
 a {
     color: #ffffff;
     text-decoration: none;
     text-align: right;
 }
-
+/* All paragraph text will have this default font size */
 p {
     font-size: 16px;
 }
 
+/* This formats the main image on the page, right below the page header and navigation bar */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,26 +70,39 @@ p {
     background-position: center;
 }
 
+/* This will make the image in the content block appear on the left of the box */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* This will make th eimage in the content block appear on the right of the box */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Anything with this class selctor will have text aligned to the right */
 .text-right {
     text-align: right;
 }
 
+/* Class selector here will give the 3 main sections of the content on the page the same formatting, displaying in blocks vertically one the page */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This formats the hheadings in the main content section of the page */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* This class selector creates the side bar on the right of the webpage, explaining the benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +121,7 @@ p {
     color: #ffffff;
 }
 
+/* Formats the h3 heading for the sidebar */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -109,6 +129,7 @@ p {
     text-align: center;
 }
 
+/* Formats the 3 images in the sidebar */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -117,6 +138,7 @@ p {
     max-width: 150px;
 }
 
+/* Class selctor for the general format of the sidebar */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -128,20 +150,14 @@ p {
     color: #ffffff;
 }
 
-/* Id Selector */
+/* Id Selector her formats the images in the sidebar/aside */
 #search-engine-optimization img,
 #online-reputation-management img,
 #social-media-marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* This formats the footer of the page */
 .footer {
     padding: 30px;
     clear: both;
