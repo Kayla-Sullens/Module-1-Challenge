@@ -20,6 +20,8 @@ https://kayla-sullens.github.io/Module-1-Challenge/
 
 ## Screenshot
 
+![image](https://github.com/Kayla-Sullens/Module-1-Challenge/assets/134717855/a3328791-b30a-4ba6-ac8b-b2d8aa1186ed)
+
 ## Credits
 
 N/A
