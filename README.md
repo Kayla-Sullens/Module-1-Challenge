@@ -14,7 +14,13 @@ N/A
 
 ## Usage
 
+## Link
+
+## Screenshot
+
 ## Credits
+
+N/A
 
 ## License
 
